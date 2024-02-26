@@ -330,7 +330,7 @@
 					var i = $(this);
 
 					if (i.val() == ''
-					||    i.val() == i.attr('placeholder'))
+					||  i.val() == i.attr('placeholder'))
 						i
 							.addClass('polyfill-placeholder')
 							.val(i.attr('placeholder'));
